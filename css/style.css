@@ -1,0 +1,174 @@
+body
+{
+	line-height: 14px;
+	font-family: Tahoma;
+	font-size: 100%;
+	color: #666666;
+	font-weight: normal;
+	overflow: auto;
+	background-image:url('../images/background.jpg');
+	background-repeat:repeat;
+}
+/* Content box for the website header */
+#header 
+{
+	width: 50em;
+	height: 1.5em;
+	margin: 0 auto; 
+	border: 1px solid #3b3b3b;
+	background-color: #3b3b3b;
+	position: relative;
+	margin-top: -0.5em !important;
+	margin-top: -1em;
+	text-align: right;
+}
+/* Content box for horizontal menu */
+#menu 
+{
+	width: 50em;
+	height: 2.06em;
+	margin: 0 auto; 
+	border-left: 1px solid #3b3b3b;
+	border-right: 1px solid #3b3b3b;
+	position: relative;
+	font-family: Tahoma;
+	font-weight: bold;
+	text-align: left;
+	background-image:url('../images/menuBackground.jpg');
+	background-repeat:repeat-x;
+}
+
+/*Main content box for everything in between banner, menu and footer */
+#container 
+{
+	width: 50em;
+	height: 20.313em;
+	margin: 0 auto; 
+	position: relative;
+	background-color: white;
+	border-left: 1px solid #3b3b3b;
+	border-right: 1px solid #3b3b3b;
+}
+/* Content box for footer */
+#footer 
+{
+	width: 50em;
+	height: 1.3em;
+	margin: 0 auto; 
+	position: relative;
+	border: 1px solid #3b3b3b;
+	text-align: center;
+	background-color: white;
+}
+
+/* box for login */
+#loginBox 
+{
+	width: 23.25em;
+	height: 13.813em;
+	background-image:url('../images/background.jpg');
+	background-repeat:repeat;
+	margin: 0 auto;
+	top: 15%;;
+	position: relative;
+	border: 1px solid #939289;
+	text-align: left;
+	overflow: auto;
+}
+
+/* positioning and text for header menu */
+.headerMenu
+{
+	margin-right: 0.5em;
+	padding: 0.2em;
+	font-family: constantia, calibri, Times New Roman;
+}
+/* positioning and formatting for Login Form */
+form.loginForm
+{
+	width: 42%;
+	margin: 0 auto;
+	line-height: 0.1em;	
+	position: relative;
+	margin-top: 1.6em;
+}
+
+
+/* Text style for footer */
+h1.copyright
+{
+	font-family: calibri, constantia, times new roman;
+	font-size: 0.5em;
+}
+
+/* Link style for header menu font */
+a.headerFont:link
+{	
+	
+	font-size: 0.9em;
+	color: white;
+	text-decoration: none;
+}
+a.headerFont:visited
+{
+
+	font-size: 0.9em;
+	color: white;
+	
+}
+a.headerFont:hover
+{
+
+	font-size: 0.9em;
+	color: #dadada;
+}
+
+/* Link style for forgotten password font */
+a.loginPassword:link
+{	
+	font-family: calibri, constantia, Times New Roman;
+	font-size: 0.7em;
+	color: #0e629d;
+	text-decoration: none;
+}
+a.loginPassword:visited
+{
+	font-family: calibri, constantia, Times New Roman;
+	font-size: 0.7em;
+	color: #0e629d;
+}
+a.loginPassword:hover
+{
+	font-family: calibri, constantia, Times New Roman;
+	font-size: 0.7em;
+	color: #84abbc;
+}
+a.loginPassword:active
+{
+	font-family: calibri, constantia, Times New Roman;
+	font-size: 0.7em;
+	color: #0e629d;
+}
+/* Style for login Button */
+input.loginButton
+{
+	font-family: constantia, Times New Roman, calibri;
+	font-weight: 500;
+	font-size: 0.8em;
+}
+/* Style for text in login forms */
+p.loginFormText
+{
+	font-family: constantia, times new roman, calibri;
+	font-weight: bold;
+	color: #3b3b3b;
+}
+
+h2.loginMessage
+{
+	font-family: constantia, times new roman, calibri;
+	font-weight: 500;
+	color: red;
+	font-size: 0.8em;
+}
+
